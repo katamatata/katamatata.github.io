@@ -1,5 +1,5 @@
 let apiKey = "90b4bf234e22493e89325b6f9cce868e";
-let numberOfResults = 1;
+let numberOfResults = 10;
 
 let randomRecipesUrl = "https://api.spoonacular.com/recipes/random?apiKey=" + apiKey;
 

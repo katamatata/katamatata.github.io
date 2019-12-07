@@ -1,0 +1,286 @@
+body {
+    font: normal 16px 'Lato', sans-serif;
+    color: #1C2833;
+    background-color: white;
+}
+
+header {
+    font-size: 18px;
+    border-bottom: 0.5px solid #ccc;
+}
+
+#header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#heart {
+    margin-right: 34px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#heart i {
+    color: #a55fc1;
+    font-size: 27px;
+    margin-left: 9px;
+}
+
+#header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#input-group {
+    margin-right: 32px;
+}
+
+#logo-wrapper {
+    padding-left: 16px;
+}
+
+#logo {
+    height: 64px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #74C15F;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    color: #F4F6F6;
+    padding: 9px 23px 9px 17px;
+    border-radius: 27px;
+    transition: All 0.1s ease;
+    cursor: pointer;
+    margin-left: -55px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    /* background-color: #4e255e; */
+    background-color: #a55fc1;
+}
+
+button i {
+    margin-right: 8px;
+}
+
+#searchField {
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+    padding: 8px 55px 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 27px;
+    width: 200px;
+}
+
+#searchField:focus {
+    outline: none;
+}
+
+#resultsPerSearch {
+    width: 50px;
+    height: 27px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#big-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 69px);
+    overflow: hidden;
+}
+
+#recipeListSection {
+    width: 355px;
+    overflow-y: auto;
+}
+
+.recipeListEl {
+    padding: 16px;
+    border-bottom: 1px dotted #ccc;
+    display: flex;
+    align-items: center;
+}
+
+#recipeListSection .recipeListEl {
+    cursor: pointer;
+}
+
+.recipeListEl:last-child {
+    border-bottom: none;
+}
+
+.selected {
+    background-color: #eddef2;
+    /* background-color: #f5ecf8; */
+}
+
+img.thumb {
+    width: 100px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+#recipeSection {
+    width: calc(100% - 355px);
+    padding: 0 16px 16px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-wrapper:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.recipeName {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0 40px;
+    text-align: center;
+    z-index: 2;
+}
+
+.iconsWrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+.iconsWrapper>div {
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.iconsWrapper i {
+    margin-right: 7px;
+    color: #a55fc1;
+}
+
+.iconsWrapper span {
+    font-size: 13px;
+}
+
+/* .servingsEl {}
+
+.cookingTimeEl {} */
+
+.heartEl {
+    cursor: pointer;
+}
+
+.infoWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredientsWrapper {
+    padding: 0 16px;
+    width: 30%;
+}
+
+.ingredientsWrapperName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.instructionsWrapper {
+    padding: 0 16px;
+    width: 70%;
+}
+
+.instructionsWrapperName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.ingredientsEl {
+    margin-left: 18px;
+}
+
+.ingredientsEl li {
+    margin-bottom: 10px;
+}
+
+.instructionsEl {
+    line-height: 1.5em;
+}
+
+#dropdown {
+    display: none;
+}
+
+#dropdown #layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: .3;
+    z-index: 3;
+}
+
+#dropdown #dropdownInner {
+    position: fixed;
+    top: 55px;
+    right: 16px;
+    width: 355px;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 4;
+}
+
+.favouritesPlaceholder {
+    padding: 16px 24px;
+}

@@ -1,6 +1,6 @@
 WhattaCook
 
-As a final project, while learning JavaScript, I have designed and built this recipe web application. 
+As a final project, while learning JavaScript, I have designed and built this recipe web application: https://katamatata.github.io
 
 When you open WhattaCook you see the two-column structure: the first column being filled up with random recipes from the API and the main column being filled up with the information of the selected recipe. Here you will see the ingredients, serving size, cooking time, heart icon and step-by-step directions.
 

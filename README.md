@@ -1,11 +1,23 @@
-WhattaCook
+# WhattaCook
 
-As a final project, while learning JavaScript, I have designed and built this recipe web application: https://katamatata.github.io
+WhattaCook is a recipe web app where you can discover new tasty recipes for the ingredients you have on hand. You enter the ingredients that are already in your fridge and get a list of recipe recommendations. With WhattaCook, you can cook without food waste in your home by using what you have. 
 
-When you open WhattaCook you see the two-column structure: the first column being filled up with random recipes from the API and the main column being filled up with the information of the selected recipe. Here you will see the ingredients, serving size, cooking time, heart icon and step-by-step directions.
+Visit the app here: https://katamatata.github.io
 
-To make UX more extended, it allows the user to find the recipes, filtered by ingredients he has. The user also can save recipes to favorites. Clicking on the heart icon in the top right corner allows the user to see the list of his favorite recipes.
+## Features
 
-Built using HTML, CSS, JavaScript, JSON, REST API. 
+* User can view a list of random recipes from the API
+* User can type in his ingredients (multiple ingredients separated by comma) and get a list of recipe recommendations based on those ingredients
+* User can click on a recipe to see the details: ingredients, serving size, cooking time, and step-by-step cooking instructions 
+* User can save recipes to favorites 
+* User can see the list of his favorite recipes
 
-In progress
+**Known issue:** deleting a recipe from favorites is not yet functional
+
+## Technologies
+* HTML 
+* CSS
+* Vanilla JavaScript
+* JSON
+* REST API
+* Font Awesome icons

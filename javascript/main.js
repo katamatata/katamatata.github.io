@@ -100,7 +100,7 @@ const showResults = (recipeList) => {
     clearResults();
     clearRecipe();
 
-    console.log(recipeList);
+    // console.log(recipeList);
 
     const allElements = [];
 

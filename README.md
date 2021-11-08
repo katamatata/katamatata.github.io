@@ -4,6 +4,8 @@ WhattaCook is a recipe web app where you can discover new tasty recipes for the 
 
 Visit the app here: https://katamatata.github.io
 
+![WhattaCook Screenshot](/images/screenshot.jpg)
+
 ## Features
 
 * User can view a list of random recipes from the API
